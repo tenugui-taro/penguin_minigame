@@ -1,0 +1,38 @@
+.scoreBar {
+  width: 600px;
+  font-size: 20px;
+  padding: 8px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.scoreBar__penguins {
+  font-size: 14px;
+}
+
+.scoreBar__currentPenguinsNum {
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.scoreBar__scoreGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.scoreBar__hiScore {
+  font-weight: bold;
+  color: #9e9e9e;
+
+  min-width: 120px;
+  text-align: end;
+}
+
+.scoreBar__score {
+  font-weight: bold;
+  min-width: 80px;
+  text-align: end;
+}

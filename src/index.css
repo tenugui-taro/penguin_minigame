@@ -1,0 +1,100 @@
+:root {
+  /* Primitive Token */
+  --color-gray-50: #f4f5f6;
+  --color-gray-300: #7e8c9a;
+  --color-gray-500: #525960;
+  --color-gray-700: #001319;
+
+  --color-blue-50: #e3f2fe;
+  --color-blue-300: #0097fe;
+  --color-blue-500: #0065ca;
+  --color-blue-700: #0046ab;
+
+  --color-yellow-50: #fff8e1;
+  --color-yellow-300: #fee182;
+  --color-yellow-500: #fdc400;
+  --color-yellow-700: #fe9000;
+
+  --spacing-0: 0.25rem;
+  --spacing-1: 0.5rem;
+  --spacing-2: 1rem;
+  --spacing-3: 1.5rem;
+  --spacing-4: 2rem;
+  --spacing-5: 2.5rem;
+  --spacing-8: 4rem;
+  --spacing-13: 6.5rem;
+  --spacing-21: 10.5rem;
+
+  --font-size-minimum: 12px;
+  --font-size-small: 14px;
+  --font-size-default: 16px;
+  --font-size-bold: 18px;
+  --font-size-large: 24px;
+  --font-size-h3: 36px;
+  --font-size-h2: 54px;
+  --font-size-h1: 81px;
+
+  /* Semantic Token */
+  --bgColor-light: var(--color-gray-50);
+  --bgColor-dark: var(--color-gray-500);
+
+  /* --font-color-primary: var(--color-blue-500); */
+  --font-color-default: var(--color-gray-500);
+}
+
+:root {
+  /* common settings */
+  font-size: var(--font-size-default);
+  line-height: 1.7;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  background-color: var(--bgColor-light);
+  color: var(--font-color-default);
+}
+
+/* ダークテーマ */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--bgColor-dark);
+  }
+} */
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
